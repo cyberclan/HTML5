@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This is my first Page in HTML. Later on, it will be with CSS and JavaScript">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Abdullah">
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<title>My first Page</title>
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+		<h2>Hello World!</h2>
+		<h3>Hello World!</h3>
+		<h4>Hello World!</h4>
+		<h5>Hello World!</h5>
+		<h6>Hello World!</h6>
+
+		<br> <!-- break -->
+
+		<p> <!-- Paragraph -->
+			<!-- at that stage i have to write more text -->
+			This is a paragraph
+			<br>
+			fasdfasdfasdfads
+			<br>
+			more Text
+			more text
+			<br>
+			<br> <!--  this is a comment -->
+			<br>
+			this is<br>
+			a new <br>
+			word
+		</p>
+
+		<p>
+			Lorem ipsum dolor <b>sit</b> amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore <i>magna</i> aliqua. Ut enim ad minim veniam,
+		quis nostrud <em>exercitation</em> ullamco <strong>laboris nisi ut aliquip</strong> ex ea commodo
+		<abbr title="This is a company name">IBB</abbr>
+		</p>
+		<!-- b, br, i, u, abbr are inline elements 
+			<b>...</b> is for bold or <strong> for screen </strong>
+			<br> is for break
+			<p>...</p> paragraph
+			<i>...</i> italic or <em>... for screen </em>
+			<abbr title="some text for the meaning">....CSS, HTML</abbr>
+			<u>....</u> underline
+			
+			Nesting elements and tags:
+			this is valid:
+			<p> ....<b>...</b>...</p>
+			this is not valid
+			<p> ....<b>...</p>...</b>
+		-->
+
+		<abbr title="Hyber Text Markup Language">HTML</abbr>
+		<abbr title="Cascading Style Sheet">CSS</abbr>
+
+		<blockquote>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation <b>ullamco laboris</b> nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur <abbr title="text for more info">sint occaecat</abbr> cupidatat non<br>
+		proident, sunt in <i>culpa qui officia</i> deserunt mollit anim id est laborum.
+
+		</blockquote> <!-- this is a block element -->
+
+		<p><!-- this is a block element -->
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation <b>ullamco laboris</b> nisi ut aliquip ex ea commodo
+			consequat. Duis <u>aute &nbsp;&nbsp;&nbsp; irure</u> dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur <abbr title="text for more info">sint occaecat</abbr> cupidatat non<br>
+			proident, sunt in <i>culpa qui officia</i> deserunt mollit anim id est laborum.
+
+		</p>
+
+		<code>
+			function MyFunction() {<br>
+				&nbsp;&nbsp;&nbsp;variable = 10;<br>
+				&nbsp;&nbsp;&nbsp;print "Hello World"<br>
+			} <!-- &nbsp; is for making a space ( at once ) -->
+		</code>
+
+		<pre> <!-- pre defined section -->
+						Text in a pre element
+			is displayed in a fixed-width
+			font, and it preserves
+			both      spaces and
+			line breaks
+		</pre>
+
+		<address>
+			Streetname <br> <!-- br is standing for break, that adding a new line -->
+			Cityname <br>
+			Code 
+		</address>
+
+		<p>
+			<small>this is a small text</small> in a paragraph. This a <sub>normal</sub> Text.
+			10 * 10 = 10<sup>2</sup>
+		</p>
+
+		Today is <time>12:00</time> o´clock.
+		<time datetime="2023-11-25 12:00">Today is Weekend</time>
+
+		<!-- hyperlink a is standing for anker -->
+		<!-- 
+		the tag <a>...</a> have to types
+		1. relative
+			<a href="subfolder/filename.jpg">go inside subfolder and grap the filename</a>
+			<a href="mycontact.html">Contact Me</a>
+		2. absolute
+			<a href="https://www.websitename.com/page/10/search.html">It's starts always from root</a>
+		-->
+		<a href="https://www.ebay.com/" target="_blank">Ebay</a>
+		<a href="https://www.somepage.com/" target="_blank">some link</a>
+		<br>
+		<a href="https://www.microsoft.com/" target="_blank">
+			<img src="img/windows-logo.jpg" alt="This is a Windows Logo" width="400" height="300">
+		</a> <!-- <img> is like <br> which doesn't have a closing tag -->
+		<!--
+			width="400"
+			height="300" is pixel
+			or
+			width="400px" height="100px"
+			or
+			height="100%" width="100%"
+		
+			choose names without any space inside a filename, as well which has a meaning for you 
+			1. file name.jpg 	NOT OK
+			2. file-name.jpg 	OK
+			3. filename.jpg 	OK
+		-->
+
+	</body>
+</html>
